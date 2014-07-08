@@ -1,0 +1,8 @@
+﻿Forget Me Not pictures:
+		Mark Seton	https://www.flickr.com/photos/24018267@N00/9014116309/in/photostream/
+		Jodi		https://www.flickr.com/photos/squirmelia/4622114470/in/photostream/
+		
+Engines/Libraries:
+	-Bootstrap
+	-JQuery
+	
