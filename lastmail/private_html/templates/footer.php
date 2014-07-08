@@ -8,6 +8,13 @@
 		</div>
 
 		<script type='text/javascript'>
+		//Make sure that .jsenabled class is set when JS exists.
+	
+			$('body').removeClass('jsdisabled');
+		
+		
+		
+		
 		 $($('input').each(animateFormLabels));
 		 $('input').on('blur', animateFormLabels);
 		 $('input').on('keydown', animateFormLabels);
@@ -29,7 +36,7 @@
 				  console.log('current input value:'+$(this).val());
 
 				  if($(this).hasClass('token-input')){
-					console.log($($(this).parent().children()).tokenfield('getTokensList'));
+					//console.log($($(this).parent().children()).tokenfield('getTokensList'));
 					extraflag = $($(this).parent().children()).tokenfield('getTokensList') != "";
 				  }else{
 					extraflag = false;
@@ -48,7 +55,7 @@
 
 				  var labelselector = 'label[for='+$(this).children("input.token-input").attr('id')+']';
 
-		  console.log("tokens:"+$(this).tokenfield('getTokensList'));
+				//console.log("tokens:"+$(this).tokenfield('getTokensList'));
 				  if( ($(this).tokenfield('getTokensList') != "" || $(this).children("input.token-input").val()!=""  )){
 
 

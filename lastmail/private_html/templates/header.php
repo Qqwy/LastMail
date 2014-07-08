@@ -32,7 +32,7 @@
 
 
 		<!--IcoMoon -->
-		<link rel="stylesheet" href="http://i.icomoon.io/public/temp/b0d278bd98/UntitledProject1/style.css">
+		<!--<link rel="stylesheet" href="http://i.icomoon.io/public/temp/b0d278bd98/UntitledProject1/style.css">-->
 
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -99,7 +99,7 @@
 
 	</head>
 	<?php if(!isset($indexpage)){ ?>
-	<body class='dashboard-page'>
+	<body class='dashboard-page jsdisabled'>
 	<div class='site-wrapper'>
 	<div class='topsection'>
 

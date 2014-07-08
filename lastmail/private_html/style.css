@@ -188,6 +188,13 @@ div.top-fg{
 
 }
 
+.top-container{ 
+	height:800px;
+}
+.dashboard-page .top-container{ 
+	height:auto;
+}
+
 .top-container .menubar{
   margin-top:20px;
   margin-bottom:0px;
@@ -539,7 +546,7 @@ fieldset {
 
 }
 
-input, div.tokenfield, .btn-select {
+input, div.tokenfield, .btn-select, select, textarea {
   padding:1em 1em .8em 1em;
   width:100%;
   font-size:1.2em;
@@ -551,12 +558,22 @@ input, div.tokenfield, .btn-select {
   
   
 }
+
+textarea{ 
+	max-width:100%;
+	min-width:100%;
+	min-height:300px;
+	
+	resize:vertical;
+}
+
 .bootstrap-select{ 
 	width:100%  !important;
 	margin-bottom:0 !important;
 }
 .btn-select{ 
-	padding-bottom:.6em;
+
+	top:-4px;
 }
 
 input:focus, div.tokenfield.focus {
@@ -564,21 +581,21 @@ input:focus, div.tokenfield.focus {
   background:#fbfbe9;
 }
 
-input + label, div.tokenfield + label, .bootstrap-select + label {
+input + label, div.tokenfield + label, .bootstrap-select + label, select + label {
   display:block;
   cursor:text;
   color:#999;
   font-weight:normal;
   transition:.15s ease-out all;
   position:absolute;
-  top:1.8em;
+  top:1.4em;
   left:2.3em;
 }
 
-input:focus + label, div.tokenfield.focus + label,
+.jsdisabled input + label, .jsdisabled div.tokenfield + label, .jsdisabled .bootstrap-select + label, .jsdisabled select + label, input:focus + label, div.tokenfield.focus + label,
 label.stay, .bootstrap-select + label {
-  top:1em !important;
-  left:3em !important;
+  top:.5em !important;
+  left:2em !important;
   font-size:.7em !important;
   font-weight:bold !important;
   color:#139dd7 !important;
