@@ -7,6 +7,7 @@ LastMail is the world's first passive post-mortem message system. It lets you se
 It can be found at https://last-mail.org
 
 **Why is this important?**
+
 I see two important uses for LastMail
 
 1. To send a final message to your digital contacts.
@@ -86,4 +87,5 @@ You're now ready to rock and roll!
 **Version History**
 
 1.1 - Many fixes to work with properly under SSL.
+
 1.0 - First released version.
