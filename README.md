@@ -68,8 +68,11 @@ LastMail then goes ahead and sends out the Last Mails that the user wrote before
 4. Change the sender address and root url in mailfunctions.php to be correct for your host.
 5. Go to your Cron jobs, and make a new job that runs every hour:
 	The exact code to provide is this:
+
 		Time:  0 * * * *
+		
 		Command: cd /path_from/server_root/to_lastmail_folder/cron/ && /usr/local/bin/php cronmail.php
+		
 			(Note that the second part, "/usr/local/bin/php"  should be the place where your PHP installation is stored. For most servers, the given location is correct)
 
 		
