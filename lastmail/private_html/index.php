@@ -146,6 +146,8 @@ include "templates/header.php";
                                                      <p><a class='cclink' href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' ><span class='ccicon cc-cc'></span><span class='ccicon cc-by'></span><span class='ccicon cc-nc'></span></a></p>
 
                          <p>LastMail and its source code are released under the <a href='http://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank' >CC-BY-NC-SA</a> License.</p>
+						 
+						 <p><b><i class="glyphicon glyphicon-share-alt"></i> Check & Download the code on <a href="https://github.com/Qqwy/LastMail" target="_blank">GitHub</a></b></p>
 
                            <p>This means that you can host a copy of LastMail for your own use as long as:
   <ul class='ccul'>
@@ -195,33 +197,8 @@ include "templates/header.php";
 
                      </div>
               </div>
-      </div>
 
-      </div>
-
-
-       </div>
-
-
-
-
-                                <div class='footer'>
-                                <div class='container'>
-                                                      <p>LastMail is made and maintained with much love and care by <a href='http://wmcode.nl' target='_blank'>W-M</a>.<br/> Also, a huge thanks to <a href='index.php#thanksto'>these people.</p>
-
-                                </div>
-          </div>
-     </div>
-
-
-
-
-
-
-
-
-
-
+			  
 
      <script type="text/javascript">
 
@@ -240,5 +217,11 @@ include "templates/header.php";
      </script>
 
 
-   </body>
-</html>
+<?php
+include 'templates/footer.php';
+?>
+
+
+
+
+

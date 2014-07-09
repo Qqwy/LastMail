@@ -1,9 +1,11 @@
-				</div>
+﻿				</div>
 			</div>
 		</div>
 		<div class='footer'>
 			<div class='container'>
-				<p>LastMail is made and maintained with much love and care by <a href='http://wmcode.nl' target='_blank'>W-M</a>.<br/> Also, a huge thanks to <a href='index.php#thanksto'>these people.</a></p>	
+				<p>LastMail is made and maintained with much love and care by <a href='http://wmcode.nl' target='_blank'>W-M</a>.<br/> Also, a huge thanks to <a href='index.php#thanksto'>these people.</a><br/><br/>
+				<a href="https://github.com/Qqwy/LastMail" target="_blank">GitHub</a> · <a href="https://last-mail.org" >Homepage</a> · <a href="https://twitter.com/W_Mcode" target="_blank">Twitter</a>
+				</p>	
 			</div>
 		</div>
 
