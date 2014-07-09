@@ -113,7 +113,7 @@ include "templates/header.php";
                          There are no advertisements or other hidden revenue streams. If you like LastMail, consider donating some money:</p>
                          <div class='row donaterow'>
                          <div class='col-sm-6'>
-                                       <script src="http://coinwidget.com/widget/coin.js"></script> <!-- Fix until Curl is set up correctly -->
+                                       <script src="coinwidget/coin.js"></script>
                                         <script>
                                         CoinWidgetCom.go({
                                           wallet_address: "1E5sWvnH6G38Zr5LcGJRwU1LQGxXFexZBu"
