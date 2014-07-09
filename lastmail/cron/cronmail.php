@@ -59,7 +59,6 @@ $br = "\r\n";
   echo "Total amount of users that have passed away: ".count($deceasedusers).$br;
   foreach($deceasedusers as $user){
 	//Send all mails that can be sent now, i.e. delays.
-	echo $user['email']."\r\n";
 	sendLastMails($user);
   }
 
