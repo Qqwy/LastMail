@@ -165,7 +165,8 @@ hr{
 
   background-color:rgba(255,255,255,0.3);
   background-image:url("images/groovepaper-top.png");
-
+  /*Gradient ignored by older browsers*/
+  background-image:linear-gradient(to right bottom, transparent, rgba(0, 255, 255, 0.2)), url('images/groovepaper-top.png');
 
 
   border-bottom: 1px solid #79A;/*#C0B9C4;*/
@@ -471,6 +472,7 @@ body.dashboard-page .content-container{
 .footer{
   text-align:center;
   background-image:url("images/groovepaper-top.png");
+  background-image:linear-gradient(to left top, transparent, rgba(0, 255, 255, 0.1)), url('images/groovepaper-top.png');
   padding-top:20px;
   height:150px;
 
