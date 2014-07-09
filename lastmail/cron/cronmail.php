@@ -1,6 +1,6 @@
 <?php
-  include_once '../userfunctions.php';
-  include_once'../mailfunctions.php';
+  include_once '../private_html/userfunctions.php';
+  include_once'../private_html/mailfunctions.php';
 
 $br = "\r\n";
   echo "Sending out Activity mails and Last Mails now...".$br;

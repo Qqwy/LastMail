@@ -236,6 +236,24 @@ div.top-fg{
 .navbar-collapse{
   border-top:none;
 }
+
+label.menulabel{ 
+	display:inline;
+}
+
+/* MOBILE MENU WITHOUT JS*/
+#openclosemenu{ 
+	display:none;
+}
+
+
+#openclosemenu:checked + .navbar-collapse{ 
+	display:block;
+	overflow-y:auto;
+	
+}
+
+
 ul.nav li{
   display:block;
 }

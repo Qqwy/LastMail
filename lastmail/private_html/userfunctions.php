@@ -456,6 +456,7 @@ function changePassword($userid, $newpass){
 		if(!isset($_SESSION['userid'])){
 			session_destroy();
 			gotoLoginPage();
+			die();
 		}
 
 		if(isset($_SESSION['userid'])){

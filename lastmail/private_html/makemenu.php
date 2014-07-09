@@ -32,11 +32,15 @@ if($isloggedin){
                 <div class='container-fluid'>
                <div class='navbar-header'>
                <a class='logo' href='index.php' >LastMail</a>
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuitemscontainer">
+			<label for="openclosemenu" class="menulabel">
+			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menuitemscontainer">
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon icon-longlist"></span>
                 </button>
+				
+			</label>
                 </div>
+				<input type="checkbox" name="openclosemenu" id="openclosemenu" />
                <div class='collapse navbar-collapse pull-right' id='menuitemscontainer'>
                  <ul class='nav'>
 

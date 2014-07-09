@@ -178,7 +178,7 @@ function sendActivateAccountMail($user){
 function sendActivityCheckMail($user, $fromsamedir=false){
 	global $ROOT_URL, $ROOT_URL_UNSAFE;
 
-	$message = file_get_contents(($fromsamedir?'':'../').'mailtemplates/activitycheck.html');
+	$message = file_get_contents(($fromsamedir?'':'../private_html/').'mailtemplates/activitycheck.html');
 
 	$message = str_replace('{{UPDATER_IMAGE}}',$ROOT_URL_UNSAFE . 'updaterimage.php?ukey='. $user['ukey'] , $message);
 
