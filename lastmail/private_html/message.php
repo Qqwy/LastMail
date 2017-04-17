@@ -66,7 +66,6 @@
 				$formvalues['subject'] = stripslashes($maildata['subject']);
 				$formvalues['to'] = $maildata['to'];
 				$formvalues['message'] = stripslashes(html_entity_decode($maildata['message']));
-				print_r($maildata);
 				$formvalues['sendername'] = stripslashes($maildata['name']);
 				$formvalues['extradelay'] =  $maildata['extradelay'];
 				
