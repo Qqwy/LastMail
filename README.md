@@ -89,8 +89,9 @@ You're now ready to rock and roll!
 
 **Version History**
 
-1.2 	- Move Cron scripts out of the public folder.
-	- Pages don't show content anymore after displaying a relocation header when user needs to log in.
+1.3  - Secure Login and Signup forms with a CAPTCHA.
+1.2  - Move Cron scripts out of the public folder.
+	 - Pages don't show content anymore after displaying a relocation header when user needs to log in.
 
 1.1 	- Many fixes to work with properly under SSL.
 
