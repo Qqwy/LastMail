@@ -1,9 +1,10 @@
 <?php
 include_once 'connect.php';
+require "securimage/securimage.php";
 
 $userinfo;
 $errors;
-
+$securimage = new Securimage();
 
 //Encryption/Decryption of mail plaintext, as this should be hidden.
 class Cipher
