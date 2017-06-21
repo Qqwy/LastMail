@@ -42,7 +42,7 @@ class Cipher
 
 function getAllLiveUsers(){
 
-	$users =  SQL_select("SELECT * FROM `lastmail_users` WHERE `userstatus`<'2'");
+	$users =  SQL_select("SELECT * FROM `lastmail_users` WHERE `userstatus`='1'");
 
 	if(!$users){
 		return array();
